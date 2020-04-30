@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  text-align: left;
+  font-size:30px;
+}
+h2 {
+  color: black;
+  text-align: left;
+  font-size:20px;
+}
+.topnav {
+  background-color: blue;
+  border: 2px white;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 14px;
+}
+.button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: mediumseagreen;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+}
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 30px;
+  color: white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  background-color: white;
+}
